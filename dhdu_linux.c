@@ -451,7 +451,7 @@ main(int argc, char **argv)
 
 	UNUSED_PARAMETER(argc);
 
-	av0 = argv[0];
+	dhdu_av0 = av0 = argv[0];
 	memset(&ifr, 0, sizeof(ifr));
 	argv++;
 
