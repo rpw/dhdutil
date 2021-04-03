@@ -3,7 +3,7 @@ TARGET = dhdutil
 
 CFLAGS = -Wall -Werror -Wno-unused-parameter
 CFLAGS += -Iinclude/
-CFLAGS += -DSDTEST -DTARGETENV_android -Dlinux -DLINUX
+CFLAGS += -DSDTEST -DTARGETENV_android -Dlinux -DLINUX -static
 
 all: $(TARGET)
 
